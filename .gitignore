@@ -1,0 +1,25 @@
+# Local data and training artifacts
+datasets/
+calibration_data/
+runs/
+logs/
+tmp/
+gmodel_dump_dir/
+__pycache__/
+*.py[cod]
+
+# Model binaries are published as GitHub Release assets
+*.pt
+*.onnx
+*.kmodel
+
+# Local path configuration
+config.local.ps1
+.env
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,39 @@
+{
+  "pt": {
+    "release_asset": "steel_ball_yolov5n_224_distilled_best.pt",
+    "size_bytes": 3719919,
+    "sha256": "fa8d3fa072e347fc428d8e794c74a10387588029999f53e369f539e5f14f7790"
+  },
+  "onnx": {
+    "release_asset": "steel_ball_yolov5n_224_distilled.onnx",
+    "size_bytes": 7135942,
+    "sha256": "d7636d882a83b329a24c0025f831fe3fc7301dac019adcb188c30e029ac38515"
+  },
+  "kmodel": {
+    "release_asset": "steel_ball_yolov5n_224_distilled_balanced_ptq2.kmodel",
+    "size_bytes": 2159896,
+    "sha256": "41599d90144a7b34839a99937e1a22c97dd71fd7e946101b4412c05ac75bc3d3"
+  },
+  "deployment_alias": {
+    "release_asset": "steel_ball_yolov5n_224_roi.kmodel",
+    "size_bytes": 2159896,
+    "sha256": "41599d90144a7b34839a99937e1a22c97dd71fd7e946101b4412c05ac75bc3d3"
+  },
+  "kmodel_input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "kmodel_input_dtype": "uint8",
+  "kmodel_output_shapes": [
+    [
+      1,
+      3087,
+      6
+    ]
+  ],
+  "kmodel_output_dtypes": [
+    "float32"
+  ]
+}
