@@ -1,0 +1,58 @@
+{
+  "aaa_000002_0.60s.jpg": {
+    "valid": true,
+    "error": [
+      -332,
+      12
+    ],
+    "rail_center": [
+      628,
+      302
+    ],
+    "rail_bbox": [
+      0,
+      234,
+      1257,
+      137
+    ],
+    "ball_center": [
+      296,
+      314
+    ],
+    "ball_bbox": [
+      278,
+      297,
+      35,
+      35
+    ],
+    "ball_circularity": 0.7051
+  },
+  "aaa_000137_41.10s.jpg": {
+    "valid": true,
+    "error": [
+      200,
+      -1
+    ],
+    "rail_center": [
+      762,
+      240
+    ],
+    "rail_bbox": [
+      297,
+      194,
+      931,
+      92
+    ],
+    "ball_center": [
+      962,
+      239
+    ],
+    "ball_bbox": [
+      951,
+      228,
+      23,
+      22
+    ],
+    "ball_circularity": 0.8349
+  }
+}
