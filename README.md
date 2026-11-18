@@ -1,7 +1,5 @@
-# 26电赛H满分省一技术方案分享
-
-> GitHub 仓库 URL 使用 ASCII slug：`26-diansai-H-manfenshengyi-jishufanganfenxiang`。
-> 本项目包含 SZ 嵌入式框架、小车主控架构、K230 视觉、图传和报告分享。
+26电赛满分省一分享
+来自广东工业大学信息工程学院 其中报告是上交的原报告 最终评测接近满分
 
 面向 K230 CanMV 的钢球多目标检测项目。项目从约 30 FPS 的 YOLOv5s-320 基线出发，通过中心 ROI、YOLOv5n-224、检测头知识蒸馏、平衡 PTQ 校准和统一后端评测，在板端实现约 60 FPS，并通过 USB 调试串口向 VOFA+ 输出最多 5 个钢球中心坐标。
 
@@ -180,7 +178,7 @@ python .\tools\create_balanced_calibration.py `
   -Output .\models\steel_ball_yolov5n_224_roi.kmodel
 ```
 
-模型文件见 [GitHub Releases](https://github.com/ianhequn/26-diansai-H-manfenshengyi-jishufanganfenxiang/releases)。
+模型文件见 [GitHub Releases](https://github.com/ianhequn/26H/releases)。
 
 ### 6. Unified PT / ONNX / KModel evaluation
 
