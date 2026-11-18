@@ -1,6 +1,6 @@
 # SZ 嵌入式框架与 H 题小车架构
 
-本仓库是 2026 年电赛 H 题“车载平衡滚球运动控制系统”的视觉与边缘端部分。小车主控的软件工程组织采用 SZ Embedded Code Framework 的分层方式，框架仓库见：[sz-embedded-code-framework](https://github.com/ianhequn/sz-embedded-code-framework)。
+本仓库是 2026 年电赛 H 题“车载平衡滚球运动控制系统”的视觉与边缘端部分，GitHub 展示名为“26电赛H满分省一技术方案分享”。小车主控的软件工程组织采用 SZ Embedded Code Framework 的分层方式，框架仓库见：[sz-embedded-code-framework](https://github.com/ianhequn/sz-embedded-code-framework)。
 
 ## 系统分工
 
