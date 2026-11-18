@@ -1,19 +1,5 @@
-# K230 Steel-Ball Detection: YOLOv5 Distillation and Quantization
-
-面向 K230 CanMV 的钢球多目标检测项目。项目从约 30 FPS 的 YOLOv5s-320 基线出发，通过中心 ROI、YOLOv5n-224、检测头知识蒸馏、平衡 PTQ 校准和统一后端评测，在板端实现约 60 FPS，并通过 USB 调试串口向 VOFA+ 输出最多 5 个钢球中心坐标。
-
-![K230 demo](assets/k230_demo_60fps.jpg)
-
-## Highlights
-
-- **边缘端实时性**：K230/CanMV 实机演示约 60 FPS。
-- **小模型部署**：YOLOv5n，输入 `224×224`，KModel 约 2.16 MB。
-- **检测头知识蒸馏**：YOLOv5s-320 Teacher 指导 YOLOv5n-224 Student。
-- **量化问题定位**：发现旧校准集 50/50 均为无球负样本。
-- **统一评测**：同一验证集、预处理、NMS 和指标实现比较 PT、ONNX、KModel。
-- **完整通信闭环**：每帧最多 5 球，按当前帧从左到右排序，以 FireWater 文本协议发送坐标。
-
-## 2026 电赛 H 题小车案例
+26电赛满分省一分享
+来自广东工业大学信息工程学院 其中报告是上交的原报告 最终评测接近满分
 
 本仓库的 K230/视觉部分服务于 2026 年电赛 H 题“车载平衡滚球运动控制系统”。小车主控的软件架构采用 [SZ Embedded Code Framework](https://github.com/ianhequn/sz-embedded-code-framework) 的分层方式：平台适配、驱动模型、共享数据、PID/算法和任务状态机彼此分开；本仓库负责 Orange Pi/K230 视觉、模型部署、图传和报告材料。
 
